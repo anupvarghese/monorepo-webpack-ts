@@ -1,0 +1,19 @@
+{
+  "name": "@firmanc/ui-shared",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "types": "dist",
+  "files": ["dist"],
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo",
+    "compile": "tsc -b tsconfig.json"
+  },
+  "dependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
