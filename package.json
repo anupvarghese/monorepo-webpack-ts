@@ -6,12 +6,12 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "shared",
-    "admin"
+    "packages/*"
   ],
   "scripts": {
     "start": "webpack-dev-server --color",
-    "build": "yarn lerna run build && yarn lerna bootstrap"
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "build": "lerna exec --parallel yarn build"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -46,7 +46,7 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1",
     "tslint-react": "^3.6.0",
-    "typescript": "^3.3.3",
+    "typescript": "^3.5.3",
     "webpack": "^4.0.0",
     "webpack-cli": "^3.0.0",
     "webpack-dev-server": "^3.0.0"

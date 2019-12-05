@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/atoms/button/index.tsx"],"names":["React","Button"],"mappings":"AAAA,OAAOA,KAAP,MAAkB,OAAlB;;AAEA,IAAMC,MAAM,GAAG,SAATA,MAAS;AAAA,SACb,yCADa;AAAA,CAAf;;AAIA,eAAeA,MAAf","sourcesContent":["import React from 'react';\n\nconst Button = () => (\n  <button>hi</button>\n);\n\nexport default Button;"],"file":"index.js"}

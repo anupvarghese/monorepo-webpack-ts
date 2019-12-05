@@ -1,0 +1,15 @@
+{
+  "name": "@firmanc/admin",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "module": "src/index.tsx",
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@firmanc/ui-shared": "*",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "scripts": {
+    "build": "babel src --extensions \".js,.ts,.tsx\"  -Dd build --source-maps && tsc"
+  }
+}
