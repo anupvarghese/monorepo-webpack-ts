@@ -2,7 +2,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    main: './admin/src/index.tsx',
+    main: './packages/admin/build/index.js',
   },
   output: {
     filename: '[name].js',
@@ -12,7 +12,7 @@ module.exports = {
     modules: [
       'node_modules',
     ],
-    extensions: ['.ts', '.tsx', '.js', '.json'],
+    extensions: ['.js', '.json'],
     symlinks: true,
   },
   devServer: {

@@ -2,6 +2,7 @@
   "name": "@firmanc/admin",
   "version": "1.0.0",
   "main": "build/index.js",
+  "types": "build/src/index.d.ts",
   "module": "src/index.tsx",
   "dependencies": {
     "@babel/cli": "^7.0.0",

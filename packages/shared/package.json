@@ -2,7 +2,8 @@
   "name": "@firmanc/ui-shared",
   "version": "0.0.1",
   "main": "build/index.js",
-  "module": "src/index.tsx",
+  "types": "build/src/index.d.ts",
+  "module": "build/index.js",
   "files": ["build"],
   
   "dependencies": {
